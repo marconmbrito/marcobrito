@@ -40,7 +40,7 @@ AOS.init({
 //resize header on scroll
 var $window = $(window),
     $header = $('#about-header')
-    $h1 = $('.h1-pages');
+    $h1 = $('#h1-about');
 
 $window.scroll(function() {
   if ($window.scrollTop() >= 152) {
