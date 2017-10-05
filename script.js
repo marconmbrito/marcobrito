@@ -43,10 +43,10 @@ var $window = $(window),
     $h1 = $('#h1-about');
 
 $window.scroll(function() {
-  if ($window.scrollTop() >= 152) {
+  if ($window.scrollTop() >= 150) {
     $header.addClass('smaller-header');
     $h1.addClass('h1-smaller');
-  } else {
+} else if ($window.scrollTop() <= 0)  {
     $header.removeClass('smaller-header');
     $h1.removeClass('h1-smaller');
   }
