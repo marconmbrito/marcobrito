@@ -37,8 +37,9 @@ AOS.init({
   duration: 1100, //speed element enters the page
 })
 
+//resize header on scroll
 var $window = $(window),
-    $header = $('.header')
+    $header = $('#about-header')
     $h1 = $('.h1-pages');
 
 $window.scroll(function() {
