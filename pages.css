@@ -1,0 +1,409 @@
+/* GENERAL - All pages ---- */
+.header {
+  height: 11em;
+  width: 100%;
+  z-index: 5;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .3) 110%), url('house.jpg') no-repeat bottom/cover fixed;
+  align-items: center;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.h1-pages {
+  font-size: 3em;
+  margin-top: 1em;
+  -webkit-transition: all 0.5s;
+ -moz-transition: all 0.5s;
+ -ms-transition: all 0.5s;
+ transition: all 0.5s;
+}
+
+.h1-smaller {
+  font-size: 2.5em;
+  position: fixed;
+  top: 10px;
+  margin: 0;
+}
+
+.smaller-header {
+    height: 5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .5) 110%), url('house.jpg') no-repeat bottom/cover fixed;
+}
+
+
+h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: none;
+  width: 90%;
+  margin: auto;
+  justify-content: space-evenly;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.cta-pages {
+  margin: 1.3em auto;
+  font-size: 2em;
+}
+
+/*FOOTER ---------------------*/
+
+.footer {
+  margin-top: 2em;
+  align-self: flex-end;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .3) 110%), url('house.jpg') no-repeat top/cover fixed;
+  width: 100%;
+  height: 5em;
+}
+
+.footer p {
+  margin: 0;
+  color: #fff;
+  font-size: .8em;
+  font-family: 'Abel', cursive;
+}
+
+/* END FOOTER ---------------------*/
+
+/* END GENERAL STYLES ---------------------*/
+
+/* CONTACT PAGE STYLES ---------------------*/
+#contact-media {
+  flex-direction: row;
+  font-size: 3em;
+  position: relative;
+  margin-top: 40px;
+  width: auto;
+  height: auto;
+}
+
+#contact-media a {
+  padding: 5px;
+  margin: 10px;
+  color: rgba(0, 0, 0, .8);
+}
+
+.upper-text {
+  width: auto;
+  height: auto;
+}
+
+.contact-hr {
+  width: 50%;
+  max-width: 10em;
+  height: 1px;
+  margin: 0 auto;
+  opacity: .5;
+}
+
+.lower-text a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.lower-text a:hover {
+  opacity: .6;
+}
+
+/* WORK PAGE STYLES ---------------------*/
+
+#work-wrapper {
+  height: auto;
+  max-width: 900px;
+}
+
+.work {
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-content: flex-start;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+.work::before {
+  content: "If you're on mobile, click to see more.";
+  width: auto;
+  height: auto;
+  font-size: .7em;
+  opacity: .6;
+  align-self: flex-start;
+}
+
+.work-text {
+  margin: 1.5em auto .5em;
+}
+
+.work-text p {
+  padding: 0;
+}
+
+.work div {
+  background: url("http://via.placeholder.com/300?text=Upcoming") no-repeat center/cover;
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: inset -3px -3px 3px rgba(0, 0, 0, .5);
+  margin-bottom: 30px border: 2px solid black;
+  overflow: hidden;
+}
+
+.work .hover-content {
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  transition: all .4s ease-in-out;
+}
+
+.hover-content p {
+  margin-top: 20%;
+  padding: 15px;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.hover-content a {
+  text-decoration: none;
+  color: inherit;
+  padding: 5px;
+  border: 1px solid #fff;
+  width: 180px;
+  margin: 20px auto;
+  font-size: 1.1em;
+}
+
+.hover-content a:hover {
+  color: #000;
+  background: #fff;
+}
+
+.work .hover-content:hover {
+  opacity: 1;
+}
+
+.last-p {
+  padding: 10px;
+  text-align: justify;
+}
+
+/*-- END OF WORK PAGE --------------- */
+
+/*-- ABOUT PAGE --------------- */
+
+#about-container {
+  height: auto;
+  overflow: hidden;
+}
+
+.about-text {
+  width: 100%;
+  margin: 2.5em auto .5em;
+  padding: 0 1em;
+  text-align: justify;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.about-text p, .text-wrap {
+  max-width: 500px;
+  flex: 1;
+}
+
+h4 {
+  margin: 2.5em auto 0;
+  font-size: 1em;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 1em auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: rgba(230, 138, 0, .7);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.wrap {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;
+}
+
+.wrap::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #fff;
+  border: 4px solid rgba(230, 138, 0, .7);
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid rgba(230, 138, 0, .7);
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent rgba(230, 138, 0, .7);
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid rgba(230, 138, 0, .7);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent rgba(230, 138, 0, .7) transparent transparent;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.content {
+  padding: 20px 30px;
+  border: 4px solid rgba(230, 138, 0, .7);
+  position: relative;
+  border-radius: 6px;
+}
+
+/*-- END OF ABOUT PAGE --------------- */
+
+/* MEDIA QUERIES ----------- */
+
+@media only screen and (min-width: 580px) {
+  .work::before {
+    content: "If you're on mobile, click to see more.";
+    width: auto;
+    font-size: .8em;
+    opacity: .6;
+    display: none;
+  }
+  .about-text {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 1.6em;
+  }
+
+  .text-wrap, .second-p {
+    padding: 0 1%;
+  }
+
+  hr {
+    height: 8em;
+    width: 1px;
+    border: none;
+    background-color: #000;
+    margin: 0 1em;
+    opacity: .5;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .container {
+    justify-content: space-around;
+  }
+  .upper-text::after {
+    width: 12%;
+    bottom: 25%;
+    left: 44%;
+  }
+  .h1-pages {
+    font-size: 4em;
+  }
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  .last-p {
+    max-width: 800px;
+    padding: 20px;
+  }
+  .h1-smaller {
+    font-size: 3em;
+    position: fixed;
+    top: 0;
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 650px) {
+  /* This makes the timeline responsive*/
+  #about-container {
+    width: 100%;
+  }
+  .timeline::after {
+    left: 31px;
+  }
+  .wrap {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  .wrap::before {
+    left: 60px;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgba(230, 138, 0, .7) transparent transparent;
+  }
+  .left::after, .right::after {
+    left: 15px;
+  }
+  .right {
+    left: 0%;
+  }
+  .content {
+    padding: 10px 5px;
+  }
+}
