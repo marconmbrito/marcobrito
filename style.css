@@ -71,9 +71,11 @@ h1 {
 
 .social-media {
   display: flex;
+  width: 100%;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  text-align: center;
   position: absolute;
   bottom: 20px;
 }
