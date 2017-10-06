@@ -294,7 +294,7 @@ h1 {
     height: auto;
   }
   .h1 {
-    font-size: 2.65em;
+    font-size: 2.05em;
   }
 
   .main-cta {
@@ -305,11 +305,36 @@ h1 {
 
   .intro-text p {
     font-size: 1.1em;
-    width: 55%;
-    margin: auto;
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto -30px;
   }
   .credit {
     left: 10px;
     width: auto;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .h1 {
+    font-size: 2.65em;
+  }
+}
+
+@media only screen and (max-width: 400px) { /*Especific for extra small screens*/
+  .h1 {
+    font-size: 1.3em;
+  }
+
+  .hey-there {
+    font-size: .8em;
+  }
+
+  .intro-text p {
+    font-size: .8em;
+  }
+
+  .main-cta {
+    font-size: 1em;
   }
 }
