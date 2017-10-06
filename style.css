@@ -337,4 +337,9 @@ h1 {
   .main-cta {
     font-size: 1em;
   }
+
+  .credit {
+    position: absolute;
+    bottom:5px;
+  }
 }
