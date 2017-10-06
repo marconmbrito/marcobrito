@@ -30,6 +30,9 @@
 .smaller-header {
     height: 4em;
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .5) 110%), url('house.jpg') no-repeat bottom/cover fixed;
